@@ -1,9 +1,9 @@
 # Building a Real-Time Data Pipeline with AWS, DynamoDB, and Snowflake
 -------------------------------------------------------------
-
-This project builds a real-time data pipeline using AWS services and Snowflake. It starts with an AWS Lambda function that periodically fetches weather data from an API and stores it in a DynamoDB table. DynamoDB Streams capture changes and trigger another Lambda function to write the data to an S3 bucket in CSV format. Snowpipe in Snowflake automatically ingests the data from S3, making it available for analysis and visualization within Snowflake. This setup ensures continuous, automated data flow and real-time insights from the weather data.
 ![dynamo drawio](https://github.com/bhavanachitragar/Building-a-Real-Time-Data-Pipeline-with-AWS-DynamoDB-and-Snowflake-/assets/91766461/10b593aa-6c94-4988-a6a0-41a63df191b3)
 
+
+This project builds a real-time data pipeline using AWS services and Snowflake. It starts with an AWS Lambda function that periodically fetches weather data from an API and stores it in a DynamoDB table. DynamoDB Streams capture changes and trigger another Lambda function to write the data to an S3 bucket in CSV format. Snowpipe in Snowflake automatically ingests the data from S3, making it available for analysis and visualization within Snowflake. This setup ensures continuous, automated data flow and real-time insights from the weather data.
 
 #### AWS services used:
 
@@ -38,7 +38,7 @@ Snowflake is used to automatically ingest data from S3 via Snowpipe, making the 
 
 
 
-### Output
+### Output:
 
 ![Screenshot 2024-06-25 143133](https://github.com/bhavanachitragar/Building-a-Real-Time-Data-Pipeline-with-AWS-DynamoDB-and-Snowflake-/assets/91766461/0ed2df90-cd30-4c1a-a68d-4f16aec71dbd)
 
